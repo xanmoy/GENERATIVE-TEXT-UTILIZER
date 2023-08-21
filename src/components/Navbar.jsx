@@ -27,22 +27,49 @@ export default function Navbar(props) {
     //     </div>
     //   </div>
     // </nav>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-9 text-uppercase" id="mainNav">
-      <div className="container">
-        <a className="navbar-brand" href="#page-top">{props.title}</a>
-        <button className="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i className="fas fa-bars"></i>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="/">Home</a></li>
-            <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="/">Repository</a></li>
-            <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="/">{props.aboutText}</a></li>
-            {/* <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="/"></a></li> */}
-          </ul>
+    // <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-9 text-uppercase" id="mainNav">
+    //   <div className="container">
+    //     <a className="navbar-brand" href="#page-top">{props.title}</a>
+    //     <button className="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    //       Menu
+    //       <i className="fas fa-bars"></i>
+    //     </button>
+    //     <div className="collapse navbar-collapse" id="navbarResponsive">
+    //       <ul className="navbar-nav ms-auto">
+    //         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="/">Home</a></li>
+    //         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="https://github.com/xanmoy/GENERATIVE-TEXT-UTILIZER">Repository</a></li>
+    //         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="https://github.com/xanmoy/GENERATIVE-TEXT-UTILIZER#readme">{props.aboutText}</a></li>
+    //         {/* <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="/"></a></li> */}
+    //       </ul>
+    //     </div>
+    //   </div>
+    // </nav>
+    <nav className="navbar navbar-expand-lg bg-dark text-white text-uppercase" id="mainNav">
+        <div className="container">
+            <a className="navbar-brand text-white" href="#page-top">{props.title}</a>
+            <button className="navbar-toggler text-uppercase font-weight-bold text-white rounded"
+                 type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                
+                <i className="fas fa-bars"></i>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+                <ul className="navbar-nav ms-auto">
+                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 text-white px-0 px-lg-3 rounded"
+                            href="/">Home</a>
+                    </li>
+                    {/* <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#skills">Skills</a></li> */}
+                    <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 text-white rounded" href="https://github.com/xanmoy/GENERATIVE-TEXT-UTILIZER">Repository</a>
+                    </li>
+                   <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 text-white rounded" href="https://github.com/xanmoy/GENERATIVE-TEXT-UTILIZER#readme">{props.aboutText}</a>
+                    </li>
+                    {/* <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#contact">Contact</a></li> */}
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
   )
 }

@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar title="Generative Text Utilizer" aboutText="About GTU" />
       <div className="container my-3">
-        <TextFrom heading="Enter the text to analyse bellow"/>
+        <TextFrom heading="Enter the text to analyse"/>
 </div>
 <Footer/>
    </> 
