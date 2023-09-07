@@ -18,9 +18,10 @@ export default function Footer() {
       <li className="nav-item"><a href="/" className="nav-link px-2 text-white">Home</a></li>
       <li className="nav-item"><a href="https://github.com/xanmoy/GENERATIVE-TEXT-UTILIZER" className="nav-link px-2 text-white">Features</a></li>
       <li className="nav-item"><a href="https://github.com/xanmoy/GENERATIVE-TEXT-UTILIZER" className="nav-link px-2 text-white">GitHub</a></li>
-      <li className="nav-item"><a href="/" className="nav-link px-2 text-white">FAQs</a></li>
+      {/* <li className="nav-item"><a href="/" className="nav-link px-2 text-white">FAQs</a></li> */}
       <li className="nav-item"><a href="https://github.com/xanmoy/GENERATIVE-TEXT-UTILIZER#readme" className="nav-link px-2 text-white">About</a></li>
     </ul>
+    <p className="text-center text-white">Super-powered by <a className='text-white' href="https://www.tanmoyganguly.in/">Xanmoy</a> ©2022-2023.</p>
     <p className="text-center text-white">Free Research Preview. © 2023 GTU-2.0</p>
   </footer>
 </div>
